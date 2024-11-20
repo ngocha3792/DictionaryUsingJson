@@ -1,0 +1,30 @@
+[33mcommit 596f45d48b9b59bfa116082bf6b07f74635eff52[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: ngocha3792 <ngocha3792@gmail.com>
+Date:   Thu Nov 14 07:54:07 2024 +0700
+
+    Bo qua file lib
+
+[33mcommit ae6987b0be464fc21796833b1393526e38f96ab1[m
+Author: ngocha3792 <ngocha3792@gmail.com>
+Date:   Thu Nov 14 07:49:22 2024 +0700
+
+    Thêm các file từ project khác
+
+[33mcommit a75163fa2b89482ae8cd87b20272888c5a3c0020[m
+Merge: f7f71c4 d141e5d
+Author: ngocha3792 <ngocha3792@gmail.com>
+Date:   Thu Nov 14 07:45:25 2024 +0700
+
+    Merge
+
+[33mcommit d141e5d6b23db09a670221e80faf542b7013851b[m
+Author: ngocha3792 <165562919+ngocha3792@users.noreply.github.com>
+Date:   Thu Nov 14 07:32:48 2024 +0700
+
+    Initial commit
+
+[33mcommit f7f71c4ed16f3fd6ed8aa8ead56acb8c862b8c7e[m
+Author: ngocha3792 <165562919+ngocha3792@users.noreply.github.com>
+Date:   Wed Nov 13 19:25:49 2024 +0700
+
+    Initial commit

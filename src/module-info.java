@@ -6,6 +6,7 @@
  */
 module DictionaryUsingJson {
 	exports controller;
+	exports view;
 
 	requires javafx.base;
 	requires transitive javafx.controls;
