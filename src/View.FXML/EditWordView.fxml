@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="750.0" prefWidth="600.0" style="-fx-background-color: linear-gradient(to bottom, #ffffff, #e0e0e0);" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.EditWordController">
+   <children>
+      <!-- Tiêu đề -->
+      <VBox alignment="CENTER" layoutX="0.0" layoutY="0.0" prefHeight="100.0" prefWidth="600.0" spacing="10.0" style="-fx-padding: 20;">
+         <children>
+            <Label style="-fx-font-weight: bold;" text="Chỉnh sửa từ" textFill="#0033cc" />
+         </children>
+      </VBox>
+
+      <!-- Khu vực nhập liệu -->
+      <ScrollPane layoutX="50.0" layoutY="100.0" prefHeight="550.0" prefWidth="500.0" fitToWidth="true" style="-fx-padding: 10;">
+         <content>
+            <VBox spacing="15.0">
+               <children>
+                  <TextField fx:id="wordField" promptText="Nhập từ..." editable="false" style="-fx-opacity: 0.7;" />
+                  <TextField fx:id="pronunciationField" promptText="Nhập phiên âm..." />
+                  <TextField fx:id="partOfSpeechField" promptText="Nhập từ loại..." />
+                  <TextField fx:id="originField" promptText="Nhập nguồn gốc..." />
+
+                  <!-- Danh sách nghĩa -->
+                  <VBox fx:id="meaningsContainer" spacing="10.0">
+                     <children>
+                        <Label text="Nghĩa và ví dụ:" style="-fx-font-weight: bold;" />
+                        <Button fx:id="addMeaningButton" onAction="#handleAddMeaning" text="Thêm nghĩa" />
+                     </children>
+                  </VBox>
+
+                  <!-- Danh sách từ đồng nghĩa -->
+                  <VBox fx:id="synonymsContainer" spacing="10.0">
+                     <children>
+                        <Label text="Từ đồng nghĩa:" style="-fx-font-weight: bold;" />
+                        <Button fx:id="addSynonymButton" onAction="#handleAddSynonym" text="Thêm từ đồng nghĩa" />
+                     </children>
+                  </VBox>
+
+                  <!-- Danh sách từ trái nghĩa -->
+                  <VBox fx:id="antonymsContainer" spacing="10.0">
+                     <children>
+                        <Label text="Từ trái nghĩa:" style="-fx-font-weight: bold;" />
+                        <Button fx:id="addAntonymButton" onAction="#handleAddAntonym" text="Thêm từ trái nghĩa" />
+                     </children>
+                  </VBox>
+               </children>
+            </VBox>
+         </content>
+      </ScrollPane>
+
+      <!-- Nút lưu -->
+      <VBox alignment="CENTER" layoutY="670.0" prefHeight="50.0" prefWidth="600.0" spacing="10.0" style="-fx-padding: 10;">
+         <children>
+            <Button fx:id="saveButton" onAction="#handleSaveWord" text="Lưu chỉnh sửa" />
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>

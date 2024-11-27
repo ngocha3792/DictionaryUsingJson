@@ -8,7 +8,7 @@ module DictionaryUsingJson {
 	opens controller to javafx.fxml;
 	exports controller;
 	exports view;
-
+	opens model to com.google.gson;
 	requires javafx.base;
 	requires transitive javafx.controls;
 	requires javafx.fxml;
