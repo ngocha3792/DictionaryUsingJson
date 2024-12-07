@@ -49,38 +49,17 @@ public class EditWordController {
         loadWordDetails();
     }
 
+    @FXML
     private void loadWordDetails() {
+        if (editingWord == null) return;
+
         wordField.setText(editingWord.getWord());
         pronunciationField.setText(editingWord.getPronunciation());
         partOfSpeechField.setText(editingWord.getPartOfSpeech());
         originField.setText(editingWord.getOrigin());
 
         for (Meaning meaning : editingWord.getMeanings()) {
-            VBox meaningBox = new VBox(10);
-            TextField definitionField = new TextField(meaning.getDefination());
-            VBox examplesContainer = new VBox(5);
-
-            for (String example : meaning.getExample()) {
-                HBox exampleBox = new HBox(10);
-                TextField exampleField = new TextField(example);
-                Button deleteExampleButton = new Button("Xóa");
-                deleteExampleButton.setStyle("-fx-background-color: #ff4d4d; -fx-text-fill: white;");
-                deleteExampleButton.setOnAction(event -> examplesContainer.getChildren().remove(exampleBox));
-
-                exampleBox.getChildren().addAll(exampleField, deleteExampleButton);
-                examplesContainer.getChildren().add(exampleBox);
-            }
-
-            Button addExampleButton = new Button("Thêm ví dụ");
-            addExampleButton.setStyle("-fx-background-color: #007bff; -fx-text-fill: white;");
-            addExampleButton.setOnAction(event -> handleAddExample(examplesContainer));
-
-            Button deleteMeaningButton = new Button("Xóa nghĩa");
-            deleteMeaningButton.setStyle("-fx-background-color: #ff4d4d; -fx-text-fill: white;");
-            deleteMeaningButton.setOnAction(event -> meaningsContainer.getChildren().remove(meaningBox));
-
-            meaningBox.getChildren().addAll(definitionField, examplesContainer, addExampleButton, deleteMeaningButton);
-            meaningsContainer.getChildren().add(meaningsContainer.getChildren().size() - 1, meaningBox);
+            addMeaningBox(meaning);
         }
 
         for (String synonym : editingWord.getSynonyms()) {
@@ -92,9 +71,35 @@ public class EditWordController {
         }
     }
 
+    private void addMeaningBox(Meaning meaning) {
+        VBox meaningBox = new VBox(10);
+        TextField definitionField = new TextField(meaning.getDefination());
+        VBox examplesContainer = new VBox(5);
+
+        for (String example : meaning.getExample()) {
+            addExampleField(examplesContainer, example);
+        }
+
+        Button addExampleButton = new Button("Thêm ví dụ");
+        addExampleButton.setStyle("-fx-background-color: #007bff; -fx-text-fill: white;");
+        addExampleButton.setOnAction(event -> handleAddExample(examplesContainer));
+
+        Button deleteMeaningButton = new Button("Xóa nghĩa");
+        deleteMeaningButton.setStyle("-fx-background-color: #ff4d4d; -fx-text-fill: white;");
+        deleteMeaningButton.setOnAction(event -> meaningsContainer.getChildren().remove(meaningBox));
+
+        meaningBox.getChildren().addAll(definitionField, examplesContainer, addExampleButton, deleteMeaningButton);
+        meaningsContainer.getChildren().add(meaningBox);
+    }
+
+    @FXML
     private void handleAddExample(VBox examplesContainer) {
+        addExampleField(examplesContainer, "");
+    }
+
+    private void addExampleField(VBox examplesContainer, String example) {
         HBox exampleBox = new HBox(10);
-        TextField exampleField = new TextField();
+        TextField exampleField = new TextField(example);
         exampleField.setPromptText("Nhập ví dụ...");
         Button deleteExampleButton = new Button("Xóa");
         deleteExampleButton.setStyle("-fx-background-color: #ff4d4d; -fx-text-fill: white;");
@@ -104,6 +109,12 @@ public class EditWordController {
         examplesContainer.getChildren().add(exampleBox);
     }
 
+    @FXML
+    private void handleAddMeaning() {
+        addMeaningBox(new Meaning("", new ArrayList<>()));
+    }
+
+    @FXML
     private void addSynonymField(String synonym) {
         HBox synonymBox = new HBox(10);
         TextField synonymField = new TextField(synonym);
@@ -112,9 +123,15 @@ public class EditWordController {
         deleteButton.setOnAction(event -> synonymsContainer.getChildren().remove(synonymBox));
 
         synonymBox.getChildren().addAll(synonymField, deleteButton);
-        synonymsContainer.getChildren().add(synonymsContainer.getChildren().size() - 1, synonymBox);
+        synonymsContainer.getChildren().add(synonymBox);
     }
 
+    @FXML
+    private void handleAddSynonym() {
+        addSynonymField("");
+    }
+
+    @FXML
     private void addAntonymField(String antonym) {
         HBox antonymBox = new HBox(10);
         TextField antonymField = new TextField(antonym);
@@ -123,21 +140,71 @@ public class EditWordController {
         deleteButton.setOnAction(event -> antonymsContainer.getChildren().remove(antonymBox));
 
         antonymBox.getChildren().addAll(antonymField, deleteButton);
-        antonymsContainer.getChildren().add(antonymsContainer.getChildren().size() - 1, antonymBox);
+        antonymsContainer.getChildren().add(antonymBox);
+    }
+
+    @FXML
+    private void handleAddAntonym() {
+        addAntonymField("");
     }
 
     @FXML
     private void handleSaveWord() {
+        String word = wordField.getText().trim();
         String pronunciation = pronunciationField.getText().trim();
         String partOfSpeech = partOfSpeechField.getText().trim();
         String origin = originField.getText().trim();
 
-        // Cập nhật dữ liệu và lưu
+        if (word.isEmpty()) {
+            showAlert("Lỗi", "Từ không được để trống!", Alert.AlertType.ERROR);
+            return;
+        }
+
+        List<Meaning> meanings = new ArrayList<>();
+        for (var meaningBox : meaningsContainer.getChildren()) {
+            if (meaningBox instanceof VBox vbox) {
+                TextField definitionField = (TextField) vbox.getChildren().get(0);
+                String definition = definitionField.getText().trim();
+
+                VBox examplesContainer = (VBox) vbox.getChildren().get(1);
+                List<String> examples = new ArrayList<>();
+
+                for (var exampleBox : examplesContainer.getChildren()) {
+                    if (exampleBox instanceof HBox hbox) {
+                        TextField exampleField = (TextField) hbox.getChildren().get(0);
+                        examples.add(exampleField.getText().trim());
+                    }
+                }
+
+                meanings.add(new Meaning(definition, examples));
+            }
+        }
+
+        List<String> synonyms = new ArrayList<>();
+        for (var synonymBox : synonymsContainer.getChildren()) {
+            if (synonymBox instanceof HBox hbox) {
+                TextField synonymField = (TextField) hbox.getChildren().get(0);
+                synonyms.add(synonymField.getText().trim());
+            }
+        }
+
+        List<String> antonyms = new ArrayList<>();
+        for (var antonymBox : antonymsContainer.getChildren()) {
+            if (antonymBox instanceof HBox hbox) {
+                TextField antonymField = (TextField) hbox.getChildren().get(0);
+                antonyms.add(antonymField.getText().trim());
+            }
+        }
+
+        editingWord.setWord(word);
         editingWord.setPronunciation(pronunciation);
         editingWord.setPartOfSpeech(partOfSpeech);
         editingWord.setOrigin(origin);
-        dictionaryApp.editWord(editingWord.getWord(), editingWord);
+        editingWord.setMeanings(meanings);
+        editingWord.setSynonyms(synonyms);
+        editingWord.setAntonyms(antonyms);
 
+        dictionaryApp.editWord(word, editingWord);
         showAlert("Thành công", "Từ đã được cập nhật!", Alert.AlertType.INFORMATION);
     }
 

@@ -38,10 +38,6 @@ public class AddWordController {
 
     private DictionaryApp dictionaryApp;
 
-    private final List<Meaning> meanings = new ArrayList<>();
-    private final List<String> synonyms = new ArrayList<>();
-    private final List<String> antonyms = new ArrayList<>();
-
     public void setDictionaryApp(DictionaryApp dictionaryApp) {
         this.dictionaryApp = dictionaryApp;
     }
@@ -51,7 +47,7 @@ public class AddWordController {
         VBox meaningBox = new VBox(10);
         TextField definitionField = new TextField();
         definitionField.setPromptText("Nhập nghĩa...");
-        
+
         VBox examplesContainer = new VBox(5);
         Button addExampleButton = new Button("Thêm ví dụ");
         addExampleButton.setStyle("-fx-background-color: #007bff; -fx-text-fill: white;");
@@ -59,15 +55,10 @@ public class AddWordController {
 
         Button deleteMeaningButton = new Button("Xóa nghĩa");
         deleteMeaningButton.setStyle("-fx-background-color: #ff4d4d; -fx-text-fill: white;");
-        deleteMeaningButton.setOnAction(event -> {
-            meaningsContainer.getChildren().remove(meaningBox);
-            meanings.remove(meaningsContainer.getChildren().indexOf(meaningBox));
-        });
+        deleteMeaningButton.setOnAction(event -> meaningsContainer.getChildren().remove(meaningBox));
 
         meaningBox.getChildren().addAll(definitionField, examplesContainer, addExampleButton, deleteMeaningButton);
-        meaningsContainer.getChildren().add(meaningsContainer.getChildren().size() - 1, meaningBox);
-
-        meanings.add(new Meaning());
+        meaningsContainer.getChildren().add(meaningBox);
     }
 
     private void handleAddExample(VBox examplesContainer) {
@@ -84,32 +75,24 @@ public class AddWordController {
 
     @FXML
     private void handleAddSynonym() {
-        HBox synonymBox = new HBox(10);
-        TextField synonymField = new TextField();
-        synonymField.setPromptText("Nhập từ đồng nghĩa...");
-        Button deleteButton = new Button("Xóa");
-        deleteButton.setStyle("-fx-background-color: #ff4d4d; -fx-text-fill: white;");
-        deleteButton.setOnAction(event -> synonymsContainer.getChildren().remove(synonymBox));
-
-        synonymBox.getChildren().addAll(synonymField, deleteButton);
-        synonymsContainer.getChildren().add(synonymsContainer.getChildren().size() - 1, synonymBox);
-
-        synonyms.add("");
+        addTextFieldWithDelete(synonymsContainer, "Nhập từ đồng nghĩa...");
     }
 
     @FXML
     private void handleAddAntonym() {
-        HBox antonymBox = new HBox(10);
-        TextField antonymField = new TextField();
-        antonymField.setPromptText("Nhập từ trái nghĩa...");
+        addTextFieldWithDelete(antonymsContainer, "Nhập từ trái nghĩa...");
+    }
+
+    private void addTextFieldWithDelete(VBox container, String promptText) {
+        HBox textBox = new HBox(10);
+        TextField textField = new TextField();
+        textField.setPromptText(promptText);
         Button deleteButton = new Button("Xóa");
         deleteButton.setStyle("-fx-background-color: #ff4d4d; -fx-text-fill: white;");
-        deleteButton.setOnAction(event -> antonymsContainer.getChildren().remove(antonymBox));
+        deleteButton.setOnAction(event -> container.getChildren().remove(textBox));
 
-        antonymBox.getChildren().addAll(antonymField, deleteButton);
-        antonymsContainer.getChildren().add(antonymsContainer.getChildren().size() - 1, antonymBox);
-
-        antonyms.add("");
+        textBox.getChildren().addAll(textField, deleteButton);
+        container.getChildren().add(textBox);
     }
 
     @FXML
@@ -119,46 +102,62 @@ public class AddWordController {
         String partOfSpeech = partOfSpeechField.getText().trim();
         String origin = originField.getText().trim();
 
-        // Lấy danh sách meanings
-        for (int i = 0; i < meaningsContainer.getChildren().size() - 1; i++) {
-            VBox meaningBox = (VBox) meaningsContainer.getChildren().get(i);
-            TextField definitionField = (TextField) meaningBox.getChildren().get(0);
+        if (word.isEmpty()) {
+            showAlert("Lỗi", "Vui lòng nhập từ!", Alert.AlertType.ERROR);
+            return;
+        }
 
-            VBox examplesContainer = (VBox) meaningBox.getChildren().get(1);
-            List<String> examples = new ArrayList<>();
-            for (int j = 0; j < examplesContainer.getChildren().size(); j++) {
-                HBox exampleBox = (HBox) examplesContainer.getChildren().get(j);
-                TextField exampleField = (TextField) exampleBox.getChildren().get(0);
-                examples.add(exampleField.getText().trim());
+        List<Meaning> meanings = new ArrayList<>();
+        for (var meaningBox : meaningsContainer.getChildren()) {
+            if (meaningBox instanceof VBox vbox) {
+                TextField definitionField = (TextField) vbox.getChildren().get(0);
+                String definition = definitionField.getText().trim();
+
+                VBox examplesContainer = (VBox) vbox.getChildren().get(1);
+                List<String> examples = new ArrayList<>();
+                for (var exampleBox : examplesContainer.getChildren()) {
+                    if (exampleBox instanceof HBox hbox) {
+                        TextField exampleField = (TextField) hbox.getChildren().get(0);
+                        if (!exampleField.getText().trim().isEmpty()) {
+                            examples.add(exampleField.getText().trim());
+                        }
+                    }
+                }
+
+                if (!definition.isEmpty()) {
+                    meanings.add(new Meaning(definition, examples));
+                }
             }
-
-            meanings.set(i, new Meaning(definitionField.getText().trim(), examples));
         }
 
-        // Lấy danh sách synonyms
-        for (int i = 0; i < synonymsContainer.getChildren().size() - 1; i++) {
-            HBox synonymBox = (HBox) synonymsContainer.getChildren().get(i);
-            TextField synonymField = (TextField) synonymBox.getChildren().get(0);
-            synonyms.set(i, synonymField.getText().trim());
-        }
+        List<String> synonyms = collectTextFieldValues(synonymsContainer);
+        List<String> antonyms = collectTextFieldValues(antonymsContainer);
 
-        // Lấy danh sách antonyms
-        for (int i = 0; i < antonymsContainer.getChildren().size() - 1; i++) {
-            HBox antonymBox = (HBox) antonymsContainer.getChildren().get(i);
-            TextField antonymField = (TextField) antonymBox.getChildren().get(0);
-            antonyms.set(i, antonymField.getText().trim());
-        }
-
-        if (word.isEmpty() || meanings.isEmpty()) {
-            showAlert("Lỗi", "Vui lòng nhập đầy đủ thông tin!", Alert.AlertType.WARNING);
+        if (meanings.isEmpty()) {
+            showAlert("Lỗi", "Vui lòng nhập ít nhất một nghĩa!", Alert.AlertType.ERROR);
             return;
         }
 
         Word newWord = new Word(word, pronunciation, meanings, partOfSpeech, synonyms, antonyms, origin);
         dictionaryApp.addNewWord(newWord);
 
-        showAlert("Thành công", "Từ mới đã được lưu!", Alert.AlertType.INFORMATION);
+        showAlert("Thành công", "Từ đã được thêm!", Alert.AlertType.INFORMATION);
         resetForm();
+    }
+    
+
+
+    private List<String> collectTextFieldValues(VBox container) {
+        List<String> values = new ArrayList<>();
+        for (var box : container.getChildren()) {
+            if (box instanceof HBox hbox) {
+                TextField textField = (TextField) hbox.getChildren().get(0);
+                if (!textField.getText().trim().isEmpty()) {
+                    values.add(textField.getText().trim());
+                }
+            }
+        }
+        return values;
     }
 
     private void resetForm() {

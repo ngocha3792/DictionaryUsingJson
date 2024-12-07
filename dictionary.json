@@ -1,110 +1,109 @@
 {
-    "apple": {
-        "word": "apple",
-        "pronunciation": "ˈæpl",
-        "meanings": [
-            {
-                "defination": "Quả táo.",
-                "example": [
-                    "She ate an apple for lunch. (Cô ấy ăn một quả táo vào bữa trưa.)",
-                    "The apple is red and juicy. (Quả táo màu đỏ và mọng nước.)",
-                    "An apple a day keeps the doctor away. (Mỗi ngày ăn một quả táo giúp tránh xa bác sĩ.)"
-                ]
-            }
-        ],
-        "partOfSpeech": "noun",
-        "synonyms": ["fruit", "pome"],
-        "antonyms": [],
-        "origin": "Old English æppel."
-    },
-    "run": {
-        "word": "run",
-        "pronunciation": "rʌn",
-        "meanings": [
-            {
-                "defination": "Chạy, di chuyển nhanh bằng chân.",
-                "example": [
-                    "He runs every morning. (Anh ấy chạy mỗi sáng.)",
-                    "The child is running in the park. (Đứa trẻ đang chạy trong công viên.)",
-                    "She ran to catch the bus. (Cô ấy chạy để bắt xe buýt.)"
-                ]
-            }
-        ],
-        "partOfSpeech": "verb",
-        "synonyms": ["sprint", "jog"],
-        "antonyms": ["walk", "crawl"],
-        "origin": "Old English rinnan."
-    },
-    "book": {
-        "word": "book",
-        "pronunciation": "bʊk",
-        "meanings": [
-            {
-                "defination": "Sách, tài liệu được in hoặc viết tay.",
-                "example": [
-                    "I bought a new book yesterday. (Tôi đã mua một cuốn sách mới hôm qua.)",
-                    "This book is very interesting. (Cuốn sách này rất thú vị.)",
-                    "She borrowed a book from the library. (Cô ấy mượn một cuốn sách từ thư viện.)"
-                ]
-            }
-        ],
-        "partOfSpeech": "noun",
-        "synonyms": ["volume", "text"],
-        "antonyms": [],
-        "origin": "Old English bōc."
-    },
-    "table": {
-        "word": "table",
-        "pronunciation": "ˈteɪbl",
-        "meanings": [
-            {
-                "defination": "Bàn, một đồ vật phẳng để làm việc hoặc ăn uống.",
-                "example": [
-                    "The table is made of wood. (Cái bàn được làm bằng gỗ.)",
-                    "We set the table for dinner. (Chúng tôi dọn bàn để ăn tối.)",
-                    "He placed the books on the table. (Anh ấy đặt sách lên bàn.)"
-                ]
-            }
-        ],
-        "partOfSpeech": "noun",
-        "synonyms": ["desk", "counter"],
-        "antonyms": [],
-        "origin": "Middle English, from Old French table."
-    },
-    "car": {
-        "word": "car",
-        "pronunciation": "kɑːr",
-        "meanings": [
-            {
-                "defination": "Xe hơi, phương tiện giao thông chạy trên đường.",
-                "example": [
-                    "He drives a red car. (Anh ấy lái một chiếc xe hơi màu đỏ.)",
-                    "The car stopped at the traffic light. (Chiếc xe dừng lại ở đèn giao thông.)",
-                    "They bought a new car last week. (Họ đã mua một chiếc xe mới tuần trước.)"
-                ]
-            }
-        ],
-        "partOfSpeech": "noun",
-        "synonyms": ["automobile", "vehicle"],
-        "antonyms": [],
-        "origin": "Latin carrus."
-    },
-    "window": {
-        "word": "window",
-        "pronunciation": "ˈwɪn.dəʊ",
-        "meanings": [
-            {
-                "defination": "Cửa sổ, nơi có thể nhìn ra ngoài.",
-                "example": [
-                    "She looked out the window. (Cô ấy nhìn ra ngoài cửa sổ.)",
-                    "Open the window to let in fresh air. (Mở cửa sổ để không khí trong lành vào.)",
-                    "The window was clean and clear. (Cửa sổ sạch và trong suốt.)"
-                ]
-            }
-        ],
-        "partOfSpeech": "noun",
-        "synonyms": ["pane", "casement"],
-        "antonyms": [],
-        "origin": "Old Norse vindauga."
-    }
+  "run": {
+    "word": "run",
+    "pronunciation": "rʌ",
+    "meanings": [
+      {
+        "defination": "Chạy, di chuyển nhanh bằng chân.",
+        "example": [
+          "The child is running in the park. (Đứa trẻ đang chạy trong công viên.)",
+          "She ran to catch the bus. (Cô ấy chạy để bắt xe buýt.)"
+        ]
+      }
+    ],
+    "partOfSpeech": "verb",
+    "synonyms": [
+      "sprint",
+      "jog"
+    ],
+    "antonyms": [
+      "walk",
+      "crawl"
+    ],
+    "origin": "Old English rinnan."
+  },
+  "book": {
+    "word": "book",
+    "pronunciation": "bʊk",
+    "meanings": [
+      {
+        "defination": "Sách, tài liệu được in hoặc viết tay.",
+        "example": [
+          "I bought a new book yesterday. (Tôi đã mua một cuốn sách mới hôm qua.)",
+          "This book is very interesting. (Cuốn sách này rất thú vị.)",
+          "She borrowed a book from the library. (Cô ấy mượn một cuốn sách từ thư viện.)"
+        ]
+      }
+    ],
+    "partOfSpeech": "noun",
+    "synonyms": [
+      "volume",
+      "text"
+    ],
+    "antonyms": [],
+    "origin": "Old English bōc."
+  },
+  "table": {
+    "word": "table",
+    "pronunciation": "ˈteɪbl",
+    "meanings": [
+      {
+        "defination": "Bàn, một đồ vật phẳng để làm việc hoặc ăn uống.",
+        "example": [
+          "The table is made of wood. (Cái bàn được làm bằng gỗ.)",
+          "We set the table for dinner. (Chúng tôi dọn bàn để ăn tối.)",
+          "He placed the books on the table. (Anh ấy đặt sách lên bàn.)"
+        ]
+      }
+    ],
+    "partOfSpeech": "noun",
+    "synonyms": [
+      "desk",
+      "counter"
+    ],
+    "antonyms": [],
+    "origin": "Middle English, from Old French table."
+  },
+  "car": {
+    "word": "car",
+    "pronunciation": "kɑːr",
+    "meanings": [
+      {
+        "defination": "Xe hơi, phương tiện giao thông chạy trên đường.",
+        "example": [
+          "He drives a red car. (Anh ấy lái một chiếc xe hơi màu đỏ.)",
+          "The car stopped at the traffic light. (Chiếc xe dừng lại ở đèn giao thông.)",
+          "They bought a new car last week. (Họ đã mua một chiếc xe mới tuần trước.)"
+        ]
+      }
+    ],
+    "partOfSpeech": "noun",
+    "synonyms": [
+      "automobile",
+      "vehicle"
+    ],
+    "antonyms": [],
+    "origin": "Latin carrus."
+  },
+  "window": {
+    "word": "window",
+    "pronunciation": "ˈwɪn.dəʊ",
+    "meanings": [
+      {
+        "defination": "Cửa sổ, nơi có thể nhìn ra ngoài.",
+        "example": [
+          "She looked out the window. (Cô ấy nhìn ra ngoài cửa sổ.)",
+          "Open the window to let in fresh air. (Mở cửa sổ để không khí trong lành vào.)",
+          "The window was clean and clear. (Cửa sổ sạch và trong suốt.)"
+        ]
+      }
+    ],
+    "partOfSpeech": "noun",
+    "synonyms": [
+      "pane",
+      "casement"
+    ],
+    "antonyms": [],
+    "origin": "Old Norse vindauga."
+  }
 }

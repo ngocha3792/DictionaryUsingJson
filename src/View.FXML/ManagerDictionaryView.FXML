@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+
+<BorderPane xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml" fx:controller="controller.ManagerDictionaryController">
+    <!-- Tiêu đề -->
+    <top>
+        <HBox spacing="15" style="-fx-padding: 15; -fx-background-color: #e3f2fd; -fx-border-color: #90caf9; -fx-border-width: 0 0 2 0; -fx-alignment: center-left;">
+            <children>
+                <Label text="Quản lý từ điển" style="-fx-font-size: 26px; -fx-font-weight: bold; -fx-text-fill: #1565c0;" />
+                <Button fx:id="addWordButton" text="Thêm từ" onAction="#handleAddWord" 
+                        style="-fx-background-color: #007bff; -fx-text-fill: white; -fx-font-size: 14px; -fx-font-weight: bold; -fx-border-radius: 5; -fx-background-radius: 5; -fx-padding: 8 15;" />
+            </children>
+        </HBox>
+    </top>
+    
+    <!-- Danh sách từ -->
+    <center>
+        <ListView fx:id="wordListView" style="-fx-padding: 10; -fx-border-color: #cccccc; -fx-border-radius: 5; -fx-background-radius: 5;" />
+    </center>
+</BorderPane>

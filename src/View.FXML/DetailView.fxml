@@ -3,17 +3,30 @@
 <?import javafx.scene.control.Label?>
 <?import javafx.scene.layout.VBox?>
 
-<VBox xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml" fx:controller="controller.DetailController" spacing="10" style="-fx-padding: 20; -fx-background-color: #f9f9f9;">
+<VBox xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml" fx:controller="controller.DetailController" spacing="15" style="-fx-padding: 20; -fx-background-color: linear-gradient(to bottom, #e3f2fd, #bbdefb); -fx-border-color: #64b5f6; -fx-border-width: 2; -fx-border-radius: 10; -fx-background-radius: 10;">
    <children>
-      <Label fx:id="wordLabel" style="-fx-font-size: 24px; -fx-font-weight: bold; -fx-text-fill: #0033cc;" />
-      <Label fx:id="pronunciationLabel" style="-fx-font-size: 18px; -fx-font-style: italic; -fx-text-fill: #666;" />
-      <Label fx:id="partOfSpeechLabel" style="-fx-font-size: 16px; -fx-font-weight: bold; -fx-text-fill: #000;" />
-      <Label fx:id="originLabel" wrapText="true" style="-fx-font-size: 14px; -fx-text-fill: #888;" />
-      <Label text="Nghĩa:" style="-fx-font-size: 16px; -fx-font-weight: bold;" />
-      <Label fx:id="meaningsLabel" wrapText="true" style="-fx-font-size: 14px; -fx-text-fill: #000;" />
-      <Label text="Từ đồng nghĩa:" style="-fx-font-size: 16px; -fx-font-weight: bold;" />
-      <Label fx:id="synonymsLabel" wrapText="true" style="-fx-font-size: 14px; -fx-text-fill: #000;" />
-      <Label text="Từ trái nghĩa:" style="-fx-font-size: 16px; -fx-font-weight: bold;" />
-      <Label fx:id="antonymsLabel" wrapText="true" style="-fx-font-size: 14px; -fx-text-fill: #000;" />
+      <!-- Tiêu đề từ -->
+      <Label fx:id="wordLabel" style="-fx-font-size: 28px; -fx-font-weight: bold; -fx-text-fill: #1565c0;" />
+
+      <!-- Phiên âm -->
+      <Label fx:id="pronunciationLabel" style="-fx-font-size: 20px; -fx-font-style: italic; -fx-text-fill: #1e88e5;" />
+
+      <!-- Từ loại -->
+      <Label fx:id="partOfSpeechLabel" style="-fx-font-size: 18px; -fx-font-weight: bold; -fx-text-fill: #004d40;" />
+
+      <!-- Nguồn gốc -->
+      <Label fx:id="originLabel" wrapText="true" style="-fx-font-size: 16px; -fx-text-fill: #6a1b9a; -fx-font-style: italic;" />
+
+      <!-- Nghĩa -->
+      <Label text="Nghĩa:" style="-fx-font-size: 20px; -fx-font-weight: bold; -fx-text-fill: #d84315;" />
+      <Label fx:id="meaningsLabel" wrapText="true" style="-fx-font-size: 16px; -fx-text-fill: #000;" />
+
+      <!-- Từ đồng nghĩa -->
+      <Label text="Từ đồng nghĩa:" style="-fx-font-size: 20px; -fx-font-weight: bold; -fx-text-fill: #00796b;" />
+      <Label fx:id="synonymsLabel" wrapText="true" style="-fx-font-size: 16px; -fx-text-fill: #000;" />
+
+      <!-- Từ trái nghĩa -->
+      <Label text="Từ trái nghĩa:" style="-fx-font-size: 20px; -fx-font-weight: bold; -fx-text-fill: #c62828;" />
+      <Label fx:id="antonymsLabel" wrapText="true" style="-fx-font-size: 16px; -fx-text-fill: #000;" />
    </children>
 </VBox>

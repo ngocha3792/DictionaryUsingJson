@@ -87,10 +87,23 @@ public class MainController {
 
     @FXML
     private void handleManageDictionary(ActionEvent event) {
-        System.out.println("Chuyển đến chức năng quản lý từ điển.");
-        // Thực hiện chuyển scene hoặc xử lý logic quản lý từ điển ở đây
-    }
+        try {
+            FXMLLoader loader = new FXMLLoader(getClass().getResource("/View.FXML/ManagerDictionaryView.fxml"));
+            Parent root = loader.load();
 
+            // Lấy controller của ManageDictionaryView
+            ManagerDictionaryController controller = loader.getController();
+            controller.setDictionaryApp(dictionaryApp);
+
+            // Tạo Stage mới để hiển thị giao diện quản lý từ điển
+            Stage stage = new Stage();
+            stage.setTitle("Quản lý từ điển");
+            stage.setScene(new Scene(root));
+            stage.show();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
     @FXML
     private void handleIdiomList(ActionEvent event) {
         System.out.println("Chuyển đến danh sách thành ngữ.");

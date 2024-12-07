@@ -8,46 +8,46 @@
 <?import javafx.scene.layout.HBox?>
 <?import javafx.scene.layout.VBox?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="750.0" prefWidth="600.0" style="-fx-background-color: linear-gradient(to bottom, #ffffff, #e0e0e0);" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.AddWordController">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="750.0" prefWidth="600.0" style="-fx-background-color: linear-gradient(to bottom, #e3f2fd, #bbdefb);" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.AddWordController">
    <children>
       <!-- Tiêu đề -->
-      <VBox alignment="CENTER" layoutX="0.0" layoutY="0.0" prefHeight="100.0" prefWidth="600.0" spacing="10.0" style="-fx-padding: 20;">
+      <VBox alignment="CENTER" layoutX="0.0" layoutY="0.0" prefHeight="100.0" prefWidth="600.0" spacing="10.0" style="-fx-padding: 20; -fx-background-color: #2196f3;">
          <children>
-            <Label style="-fx-font-weight: bold;" text="Thêm từ mới" textFill="#0033cc" />
+            <Label style="-fx-font-weight: bold; -fx-font-size: 24px; -fx-text-fill: white;" text="Thêm từ mới" />
          </children>
       </VBox>
 
       <!-- Khu vực nhập liệu -->
-      <ScrollPane layoutX="50.0" layoutY="100.0" prefHeight="550.0" prefWidth="500.0" fitToWidth="true" style="-fx-padding: 10;">
+      <ScrollPane layoutX="50.0" layoutY="100.0" prefHeight="550.0" prefWidth="500.0" fitToWidth="true" style="-fx-padding: 10; -fx-border-color: #90caf9; -fx-border-width: 2; -fx-border-radius: 10; -fx-background-radius: 10;">
          <content>
-            <VBox spacing="15.0">
+            <VBox spacing="15.0" style="-fx-padding: 15;">
                <children>
-                  <TextField fx:id="wordField" promptText="Nhập từ..." />
-                  <TextField fx:id="pronunciationField" promptText="Nhập phiên âm..." />
-                  <TextField fx:id="partOfSpeechField" promptText="Nhập từ loại..." />
-                  <TextField fx:id="originField" promptText="Nhập nguồn gốc..." />
+                  <TextField fx:id="wordField" promptText="Nhập từ..." style="-fx-font-size: 14px; -fx-padding: 10; -fx-border-color: #64b5f6; -fx-border-width: 1; -fx-border-radius: 5; -fx-background-radius: 5;" />
+                  <TextField fx:id="pronunciationField" promptText="Nhập phiên âm..." style="-fx-font-size: 14px; -fx-padding: 10; -fx-border-color: #64b5f6; -fx-border-width: 1; -fx-border-radius: 5; -fx-background-radius: 5;" />
+                  <TextField fx:id="partOfSpeechField" promptText="Nhập từ loại..." style="-fx-font-size: 14px; -fx-padding: 10; -fx-border-color: #64b5f6; -fx-border-width: 1; -fx-border-radius: 5; -fx-background-radius: 5;" />
+                  <TextField fx:id="originField" promptText="Nhập nguồn gốc..." style="-fx-font-size: 14px; -fx-padding: 10; -fx-border-color: #64b5f6; -fx-border-width: 1; -fx-border-radius: 5; -fx-background-radius: 5;" />
 
                   <!-- Danh sách nghĩa -->
                   <VBox fx:id="meaningsContainer" spacing="10.0">
                      <children>
-                        <Label text="Nghĩa và ví dụ:" style="-fx-font-weight: bold;" />
-                        <Button fx:id="addMeaningButton" onAction="#handleAddMeaning" text="Thêm nghĩa" />
+                        <Label text="Nghĩa và ví dụ:" style="-fx-font-weight: bold; -fx-font-size: 16px; -fx-text-fill: #1565c0;" />
+                        <Button fx:id="addMeaningButton" onAction="#handleAddMeaning" text="Thêm nghĩa" style="-fx-background-color: #1e88e5; -fx-text-fill: white; -fx-font-size: 14px; -fx-padding: 8 15; -fx-border-radius: 5; -fx-background-radius: 5;" />
                      </children>
                   </VBox>
 
                   <!-- Danh sách từ đồng nghĩa -->
                   <VBox fx:id="synonymsContainer" spacing="10.0">
                      <children>
-                        <Label text="Từ đồng nghĩa:" style="-fx-font-weight: bold;" />
-                        <Button fx:id="addSynonymButton" onAction="#handleAddSynonym" text="Thêm từ đồng nghĩa" />
+                        <Label text="Từ đồng nghĩa:" style="-fx-font-weight: bold; -fx-font-size: 16px; -fx-text-fill: #1565c0;" />
+                        <Button fx:id="addSynonymButton" onAction="#handleAddSynonym" text="Thêm từ đồng nghĩa" style="-fx-background-color: #1e88e5; -fx-text-fill: white; -fx-font-size: 14px; -fx-padding: 8 15; -fx-border-radius: 5; -fx-background-radius: 5;" />
                      </children>
                   </VBox>
 
                   <!-- Danh sách từ trái nghĩa -->
                   <VBox fx:id="antonymsContainer" spacing="10.0">
                      <children>
-                        <Label text="Từ trái nghĩa:" style="-fx-font-weight: bold;" />
-                        <Button fx:id="addAntonymButton" onAction="#handleAddAntonym" text="Thêm từ trái nghĩa" />
+                        <Label text="Từ trái nghĩa:" style="-fx-font-weight: bold; -fx-font-size: 16px; -fx-text-fill: #1565c0;" />
+                        <Button fx:id="addAntonymButton" onAction="#handleAddAntonym" text="Thêm từ trái nghĩa" style="-fx-background-color: #1e88e5; -fx-text-fill: white; -fx-font-size: 14px; -fx-padding: 8 15; -fx-border-radius: 5; -fx-background-radius: 5;" />
                      </children>
                   </VBox>
                </children>
@@ -58,7 +58,7 @@
       <!-- Nút lưu -->
       <VBox alignment="CENTER" layoutY="670.0" prefHeight="50.0" prefWidth="600.0" spacing="10.0" style="-fx-padding: 10;">
          <children>
-            <Button fx:id="saveButton" onAction="#handleSaveWord" text="Lưu từ mới" />
+            <Button fx:id="saveButton" onAction="#handleSaveWord" text="Lưu từ mới" style="-fx-background-color: #43a047; -fx-text-fill: white; -fx-font-size: 16px; -fx-padding: 10 20; -fx-border-radius: 5; -fx-background-radius: 5;" />
          </children>
       </VBox>
    </children>
