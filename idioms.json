@@ -1,0 +1,26 @@
+[
+    {
+        "name": "Break the ice",
+        "meanings": [
+            {
+                "defination": "To initiate conversation in a social setting."
+            }
+        ]
+    },
+    {
+        "name": "Spill the beans",
+        "meanings": [
+            {
+                "defination": "To reveal a secret or disclose information."
+            }
+        ]
+    },
+    {
+        "name": "Hit the sack",
+        "meanings": [
+            {
+                "defination": "To go to bed or go to sleep."
+            }
+        ]
+    }
+]

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+<AnchorPane xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml"
+             fx:controller="controller.IdiomController" prefHeight="600.0" prefWidth="800.0"
+             style="-fx-background-color: linear-gradient(to bottom, #ffffff, #e3f2fd);">
+    <children>
+        <!-- Tiêu đề -->
+        <VBox alignment="CENTER" prefHeight="100.0" prefWidth="800.0" spacing="10.0"
+              style="-fx-background-color: #1565c0; -fx-padding: 20;">
+            <children>
+                <Label text="Danh sách thành ngữ" style="-fx-font-size: 28px; -fx-font-weight: bold; -fx-text-fill: #ffffff;" />
+            </children>
+        </VBox>
+
+        <!-- Nội dung -->
+        <VBox layoutY="100.0" prefHeight="500.0" prefWidth="800.0" spacing="20.0" style="-fx-padding: 20;">
+            <children>
+                <!-- Danh sách thành ngữ -->
+                <HBox spacing="20.0">
+                    <ListView fx:id="idiomListView" prefHeight="400.0" prefWidth="360.0"
+                              style="-fx-border-color: #90caf9; -fx-border-radius: 10; -fx-background-radius: 10; -fx-padding: 10; -fx-background-color: #ffffff; -fx-font-size: 16px;">
+                    </ListView>
+
+                    <!-- Danh sách nghĩa -->
+                    <VBox spacing="10.0" prefWidth="380.0">
+                        <Label text="Nghĩa:" style="-fx-font-size: 18px; -fx-font-weight: bold; -fx-text-fill: #333;" />
+                        <ListView fx:id="meaningsListView" prefHeight="360.0" prefWidth="360.0"
+                                  style="-fx-border-color: #90caf9; -fx-border-radius: 10; -fx-background-radius: 10; -fx-padding: 10; -fx-background-color: #ffffff; -fx-font-size: 16px;">
+                        </ListView>
+                    </VBox>
+                </HBox>
+            </children>
+        </VBox>
+    </children>
+</AnchorPane>

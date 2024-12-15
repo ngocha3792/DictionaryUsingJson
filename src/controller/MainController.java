@@ -81,7 +81,7 @@ public class MainController {
             suggestionsContainer.getChildren().add(wordBox);
         }
 
-        suggestionsContainer.toFront(); // Đảm bảo hiển thị trên các thành phần khác
+        suggestionsContainer.toFront(); 
     }
 
 
@@ -91,11 +91,10 @@ public class MainController {
             FXMLLoader loader = new FXMLLoader(getClass().getResource("/View.FXML/ManagerDictionaryView.fxml"));
             Parent root = loader.load();
 
-            // Lấy controller của ManageDictionaryView
             ManagerDictionaryController controller = loader.getController();
             controller.setDictionaryApp(dictionaryApp);
 
-            // Tạo Stage mới để hiển thị giao diện quản lý từ điển
+            
             Stage stage = new Stage();
             stage.setTitle("Quản lý từ điển");
             stage.setScene(new Scene(root));
@@ -105,9 +104,18 @@ public class MainController {
         }
     }
     @FXML
-    private void handleIdiomList(ActionEvent event) {
-        System.out.println("Chuyển đến danh sách thành ngữ.");
-        // Thực hiện chuyển scene hoặc xử lý logic danh sách thành ngữ ở đây
+    private void handleIdiomList() {
+        try {
+            FXMLLoader loader = new FXMLLoader(getClass().getResource("/View.FXML/IdiomView.fxml"));
+            Parent root = loader.load();
+            
+            Stage stage = new Stage();
+            stage.setTitle("Danh sách Thành ngữ");
+            stage.setScene(new Scene(root));
+            stage.show();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
     }
 
 	@FXML
