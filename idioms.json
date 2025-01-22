@@ -1,26 +1,2213 @@
 [
-    {
-        "name": "Break the ice",
-        "meanings": [
-            {
-                "defination": "To initiate conversation in a social setting."
-            }
+  {
+    "name": "A blessing in disguise",
+    "meanings": [
+      {
+        "defination": "Điều không may ban đầu nhưng lại mang đến điều tốt về sau.",
+        "example": [
+          "Losing that job turned out to be a blessing in disguise as I found a better one."
         ]
-    },
-    {
-        "name": "Spill the beans",
-        "meanings": [
-            {
-                "defination": "To reveal a secret or disclose information."
-            }
+      }
+    ]
+  },
+  {
+    "name": "A drop in the bucket",
+    "meanings": [
+      {
+        "defination": "Chỉ một phần rất nhỏ so với tổng thể.",
+        "example": [
+          "The money raised for charity was just a drop in the bucket compared to what was needed."
         ]
-    },
-    {
-        "name": "Hit the sack",
-        "meanings": [
-            {
-                "defination": "To go to bed or go to sleep."
-            }
+      }
+    ]
+  },
+  {
+    "name": "Actions speak louder than words",
+    "meanings": [
+      {
+        "defination": "Hành động có giá trị hơn lời nói suông.",
+        "example": [
+          "He keeps promising to change, but actions speak louder than words."
         ]
-    }
+      }
+    ]
+  },
+  {
+    "name": "Add fuel to the fire",
+    "meanings": [
+      {
+        "defination": "Làm tình hình xấu đi hoặc căng thẳng hơn.",
+        "example": [
+          "Don’t mention the mistake again – it’ll just add fuel to the fire."
+        ]
+      }
+    ]
+  },
+  {
+    "name": "All bark and no bite",
+    "meanings": [
+      {
+        "defination": "Chỉ giỏi đe dọa chứ không thực hiện, chỉ mạnh miệng.",
+        "example": [
+          "He threatens to sue, but he’s all bark and no bite."
+        ]
+      }
+    ]
+  },
+  {
+    "name": "All ears",
+    "meanings": [
+      {
+        "defination": "Chăm chú lắng nghe.",
+        "example": [
+          "Tell me about your trip! I’m all ears."
+        ]
+      }
+    ]
+  },
+  {
+    "name": "The ball is in your court",
+    "meanings": [
+      {
+        "defination": "Tới lượt bạn quyết định hoặc hành động.",
+        "example": [
+          "I’ve done my part; the ball is in your court now."
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Barking up the wrong tree",
+    "meanings": [
+      {
+        "defination": "Nhầm lẫn hoặc hiểu sai vấn đề.",
+        "example": [
+          "If you think I took your wallet, you’re barking up the wrong tree."
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Be a piece of cake",
+    "meanings": [
+      {
+        "defination": "Rất dễ dàng, đơn giản.",
+        "example": [
+          "Fixing this error was a piece of cake for the experienced programmer."
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Beat around the bush",
+    "meanings": [
+      {
+        "defination": "Nói vòng vo, không đi thẳng vào vấn đề.",
+        "example": [
+          "Stop beating around the bush and tell me what you really think."
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Bend over backwards",
+    "meanings": [
+      {
+        "defination": "Nỗ lực rất nhiều để giúp ai đó.",
+        "example": [
+          "They bent over backwards to make their guests feel welcome."
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Between a rock and a hard place",
+    "meanings": [
+      {
+        "defination": "Rơi vào tình huống khó khăn, tiến thoái lưỡng nan.",
+        "example": [
+          "She was between a rock and a hard place; she could neither quit nor continue the job happily."
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Bite off more than you can chew",
+    "meanings": [
+      {
+        "defination": "Cố gắng làm việc vượt quá khả năng.",
+        "example": [
+          "He bit off more than he could chew by taking on six classes this semester."
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Bite the bullet",
+    "meanings": [
+      {
+        "defination": "Can đảm chịu đựng hoặc đối mặt với khó khăn.",
+        "example": [
+          "I decided to bite the bullet and pay for the expensive repair."
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Break a leg",
+    "meanings": [
+      {
+        "defination": "Chúc may mắn (thường dùng trong nghệ thuật biểu diễn).",
+        "example": [
+          "You have a big performance tonight? Well, break a leg!"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Burn the midnight oil",
+    "meanings": [
+      {
+        "defination": "Thức khuya để làm việc hoặc học hành.",
+        "example": [
+          "I had to burn the midnight oil to finish the project on time."
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Butterflies in my stomach",
+    "meanings": [
+      {
+        "defination": "Cảm giác bồn chồn, lo lắng.",
+        "example": [
+          "I always get butterflies in my stomach before a presentation."
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Call it a day",
+    "meanings": [
+      {
+        "defination": "Quyết định dừng làm việc (trong ngày hoặc dự án).",
+        "example": [
+          "We’ve been working for hours. Let’s call it a day and go home."
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Can't judge a book by its cover",
+    "meanings": [
+      {
+        "defination": "Không nên đánh giá ai/cái gì qua vẻ bề ngoài.",
+        "example": [
+          "He looks shy, but you can’t judge a book by its cover."
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Catch someone off guard",
+    "meanings": [
+      {
+        "defination": "Làm ai đó bất ngờ, không kịp phản ứng.",
+        "example": [
+          "Her sudden question caught me off guard."
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Cost an arm and a leg",
+    "meanings": [
+      {
+        "defination": "Rất đắt đỏ.",
+        "example": [
+          "That designer handbag cost her an arm and a leg."
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Cut corners",
+    "meanings": [
+      {
+        "defination": "Làm việc một cách cẩu thả để tiết kiệm thời gian/tiền bạc.",
+        "example": [
+          "When building a house, don’t cut corners on materials."
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Cut someone some slack",
+    "meanings": [
+      {
+        "defination": "Nương tay, bớt khắt khe với ai đó.",
+        "example": [
+          "She’s still new to the job, so cut her some slack."
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Devil's advocate",
+    "meanings": [
+      {
+        "defination": "Người hay nêu quan điểm trái ngược để tranh luận.",
+        "example": [
+          "I’ll play devil’s advocate and argue the other side."
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Don't count your chickens before they hatch",
+    "meanings": [
+      {
+        "defination": "Đừng tính trước điều gì khi chưa chắc chắn.",
+        "example": [
+          "They promised me a bonus, but I won’t count my chickens before they hatch."
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Don't put all your eggs in one basket",
+    "meanings": [
+      {
+        "defination": "Đừng dồn mọi thứ vào cùng một nơi hoặc dự án.",
+        "example": [
+          "Invest in different markets; don’t put all your eggs in one basket."
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Down to the wire",
+    "meanings": [
+      {
+        "defination": "Sát nút, gần hết thời gian.",
+        "example": [
+          "They finished the test just down to the wire."
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Draw the line",
+    "meanings": [
+      {
+        "defination": "Đặt ra giới hạn, không chấp nhận vượt quá.",
+        "example": [
+          "I draw the line at lying to customers."
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Drive someone up the wall",
+    "meanings": [
+      {
+        "defination": "Làm ai đó vô cùng khó chịu, phát điên.",
+        "example": [
+          "His constant whistling drives me up the wall."
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Elephant in the room",
+    "meanings": [
+      {
+        "defination": "Vấn đề lớn ai cũng biết nhưng né tránh nói đến.",
+        "example": [
+          "The fact that he’s broke is the elephant in the room during their family meetings."
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Every cloud has a silver lining",
+    "meanings": [
+      {
+        "defination": "Trong cái rủi có cái may.",
+        "example": [
+          "I know you’re upset about losing the job, but every cloud has a silver lining."
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Fed up",
+    "meanings": [
+      {
+        "defination": "Chán ngấy, không chịu được nữa.",
+        "example": [
+          "I’m fed up with the noise in this neighborhood."
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Finding a needle in a haystack",
+    "meanings": [
+      {
+        "defination": "Tìm kim đáy bể, gần như không thể tìm được.",
+        "example": [
+          "Finding my ring on the beach was like finding a needle in a haystack."
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Fish out of water",
+    "meanings": [
+      {
+        "defination": "Cảm giác lạc lõng, không thoải mái trong môi trường mới.",
+        "example": [
+          "I felt like a fish out of water at that formal event."
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Get a taste of your own medicine",
+    "meanings": [
+      {
+        "defination": "Bị đối xử theo cách mình đối xử với người khác (thường là xấu).",
+        "example": [
+          "He’s always late, so when we left without him, he got a taste of his own medicine."
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Get out of hand",
+    "meanings": [
+      {
+        "defination": "Vượt quá tầm kiểm soát.",
+        "example": [
+          "The party started to get out of hand when more people arrived than expected."
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Get something off your chest",
+    "meanings": [
+      {
+        "defination": "Trút bầu tâm sự, nói ra điều đang lo nghĩ.",
+        "example": [
+          "I had to get it off my chest and tell him how I felt."
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Give someone the cold shoulder",
+    "meanings": [
+      {
+        "defination": "Làm lơ, đối xử lạnh nhạt với ai đó.",
+        "example": [
+          "She gave me the cold shoulder after our argument."
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Go down in flames",
+    "meanings": [
+      {
+        "defination": "Thất bại thảm hại và đột ngột.",
+        "example": [
+          "His plan to start a restaurant went down in flames after just six months."
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Go the extra mile",
+    "meanings": [
+      {
+        "defination": "Cố gắng hơn mức bình thường để đạt mục tiêu.",
+        "example": [
+          "He always goes the extra mile to help his customers."
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Hit the sack",
+    "meanings": [
+      {
+        "defination": "Đi ngủ.",
+        "example": [
+          "I’m exhausted. I’m going to hit the sack."
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Hit the nail on the head",
+    "meanings": [
+      {
+        "defination": "Nói hoặc làm chính xác.",
+        "example": [
+          "You hit the nail on the head with your analysis."
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Hit the books",
+    "meanings": [
+      {
+        "defination": "Bắt đầu học tập chăm chỉ.",
+        "example": [
+          "I need to hit the books if I want to pass tomorrow’s exam."
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Hold your horses",
+    "meanings": [
+      {
+        "defination": "Bình tĩnh, đừng nóng vội.",
+        "example": [
+          "Hold your horses! We still have time before the deadline."
+        ]
+      }
+    ]
+  },
+  {
+    "name": "In hot water",
+    "meanings": [
+      {
+        "defination": "Gặp rắc rối hoặc tình thế khó khăn.",
+        "example": [
+          "He found himself in hot water after missing the deadline again."
+        ]
+      }
+    ]
+  },
+  {
+    "name": "In the heat of the moment",
+    "meanings": [
+      {
+        "defination": "Trong lúc tức giận hoặc căng thẳng mà hành động thiếu suy nghĩ.",
+        "example": [
+          "He said some harsh words in the heat of the moment."
+        ]
+      }
+    ]
+  },
+  {
+    "name": "In the same boat",
+    "meanings": [
+      {
+        "defination": "Cùng chung hoàn cảnh, thường là khó khăn.",
+        "example": [
+          "We’re all in the same boat; we need to work together."
+        ]
+      }
+    ]
+  },
+  {
+    "name": "It's not rocket science",
+    "meanings": [
+      {
+        "defination": "Không quá phức tạp hay khó hiểu.",
+        "example": [
+          "Just follow the instructions; it’s not rocket science."
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Jump on the bandwagon",
+    "meanings": [
+      {
+        "defination": "Chạy theo trào lưu hay xu hướng đang thịnh hành.",
+        "example": [
+          "He jumped on the bandwagon and started investing in tech stocks."
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Keep an eye on",
+    "meanings": [
+      {
+        "defination": "Để mắt, trông chừng.",
+        "example": [
+          "Can you keep an eye on my bag while I go to the restroom?"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Keep your chin up",
+    "meanings": [
+      {
+        "defination": "Giữ vững tinh thần, lạc quan.",
+        "example": [
+          "Keep your chin up, things will get better soon."
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Kill two birds with one stone",
+    "meanings": [
+      {
+        "defination": "Một mũi tên trúng hai đích.",
+        "example": [
+          "By shopping on the way home, I killed two birds with one stone."
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Leave no stone unturned",
+    "meanings": [
+      {
+        "defination": "Tìm kiếm, kiểm tra cẩn thận mọi khả năng.",
+        "example": [
+          "We’ll leave no stone unturned in our search for the missing puppy."
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Let the cat out of the bag",
+    "meanings": [
+      {
+        "defination": "Tiết lộ bí mật (thường là vô ý).",
+        "example": [
+          "He accidentally let the cat out of the bag about the surprise party."
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Look before you leap",
+    "meanings": [
+      {
+        "defination": "Cân nhắc kỹ trước khi hành động.",
+        "example": [
+          "You should look before you leap when changing jobs."
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Lose your touch",
+    "meanings": [
+      {
+        "defination": "Mất đi kỹ năng hoặc khả năng vốn có.",
+        "example": [
+          "I used to be good at basketball, but I’ve lost my touch."
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Make a long story short",
+    "meanings": [
+      {
+        "defination": "Tóm tắt ngắn gọn, đi vào ý chính.",
+        "example": [
+          "To make a long story short, we missed the flight and had to drive."
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Miss the boat",
+    "meanings": [
+      {
+        "defination": "Lỡ cơ hội.",
+        "example": [
+          "He missed the boat by not applying for the job in time."
+        ]
+      }
+    ]
+  },
+  {
+    "name": "My hands are tied",
+    "meanings": [
+      {
+        "defination": "Không thể hành động hay giúp đỡ do hoàn cảnh.",
+        "example": [
+          "I’d love to help, but my hands are tied by the rules."
+        ]
+      }
+    ]
+  },
+  {
+    "name": "No pain, no gain",
+    "meanings": [
+      {
+        "defination": "Có làm thì mới có hưởng, phải chịu khó mới thành công.",
+        "example": [
+          "He works out every day because he believes in ‘no pain, no gain.’"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Not playing with a full deck",
+    "meanings": [
+      {
+        "defination": "Không bình thường hoặc không thông minh lắm.",
+        "example": [
+          "Sometimes I think he’s not playing with a full deck."
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Off the top of my head",
+    "meanings": [
+      {
+        "defination": "Nói hoặc nghĩ ngay lập tức, không chuẩn bị trước.",
+        "example": [
+          "Off the top of my head, I can’t recall his phone number."
+        ]
+      }
+    ]
+  },
+  {
+    "name": "On the ball",
+    "meanings": [
+      {
+        "defination": "Nhanh nhẹn, hiểu vấn đề nhanh và làm tốt.",
+        "example": [
+          "She’s really on the ball when it comes to organizing events."
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Once in a blue moon",
+    "meanings": [
+      {
+        "defination": "Hiếm khi xảy ra.",
+        "example": [
+          "I only go to the cinema once in a blue moon."
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Out of nowhere",
+    "meanings": [
+      {
+        "defination": "Xuất hiện một cách bất ngờ, không báo trước.",
+        "example": [
+          "A car came out of nowhere and nearly hit me."
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Out of the blue",
+    "meanings": [
+      {
+        "defination": "Hoàn toàn bất ngờ, đột ngột.",
+        "example": [
+          "He called me out of the blue after years of no contact."
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Over the moon",
+    "meanings": [
+      {
+        "defination": "Rất vui sướng, hạnh phúc tột độ.",
+        "example": [
+          "She was over the moon when she got the job offer."
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Pull someone's leg",
+    "meanings": [
+      {
+        "defination": "Trêu chọc ai đó, thường theo kiểu đùa giỡn.",
+        "example": [
+          "I’m just pulling your leg; of course I trust you."
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Pull yourself together",
+    "meanings": [
+      {
+        "defination": "Bình tĩnh lại, điều chỉnh cảm xúc hoặc hành vi.",
+        "example": [
+          "After failing the exam, he had to pull himself together and start studying again."
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Put something on ice",
+    "meanings": [
+      {
+        "defination": "Tạm hoãn hoặc dừng kế hoạch.",
+        "example": [
+          "We decided to put the project on ice until we have more funding."
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Rain on someone's parade",
+    "meanings": [
+      {
+        "defination": "Phá hỏng niềm vui hoặc kế hoạch của ai đó.",
+        "example": [
+          "I don’t want to rain on your parade, but our flight just got canceled."
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Read between the lines",
+    "meanings": [
+      {
+        "defination": "Hiểu ẩn ý, hiểu sâu xa hơn lời nói hay văn bản.",
+        "example": [
+          "Try to read between the lines when you review the contract."
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Raining cats and dogs",
+    "meanings": [
+      {
+        "defination": "Mưa xối xả, mưa tầm tã.",
+        "example": [
+          "Take an umbrella; it’s raining cats and dogs out there."
+        ]
+      }
+    ]
+  },
+  {
+    "name": "See eye to eye",
+    "meanings": [
+      {
+        "defination": "Đồng quan điểm, nhất trí với nhau.",
+        "example": [
+          "My boss and I don’t always see eye to eye on things."
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Sit tight",
+    "meanings": [
+      {
+        "defination": "Kiên nhẫn chờ đợi mà không hành động hấp tấp.",
+        "example": [
+          "Just sit tight, and I’ll bring you the news as soon as possible."
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Skeleton in the closet",
+    "meanings": [
+      {
+        "defination": "Bí mật xấu hổ không muốn ai biết.",
+        "example": [
+          "Everyone has a skeleton in their closet they’d rather keep hidden."
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Skating on thin ice",
+    "meanings": [
+      {
+        "defination": "Hành động mạo hiểm, gần nguy hiểm.",
+        "example": [
+          "He’s skating on thin ice by lying to his boss."
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Spill the beans",
+    "meanings": [
+      {
+        "defination": "Tiết lộ bí mật (thường vô ý).",
+        "example": [
+          "He spilled the beans about the surprise party."
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Speak of the devil",
+    "meanings": [
+      {
+        "defination": "Vừa nhắc Tào Tháo, Tào Tháo đến.",
+        "example": [
+          "Speak of the devil, here comes Tom."
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Spit it out",
+    "meanings": [
+      {
+        "defination": "Nói thẳng ra điều muốn nói.",
+        "example": [
+          "If you have something to say, just spit it out."
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Spread yourself too thin",
+    "meanings": [
+      {
+        "defination": "Ôm đồm quá nhiều việc dẫn đến không làm tốt được.",
+        "example": [
+          "She’s spreading herself too thin by taking on another project."
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Stab someone in the back",
+    "meanings": [
+      {
+        "defination": "Phản bội, chơi xấu sau lưng ai đó.",
+        "example": [
+          "He stabbed his partner in the back by selling the secret formula."
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Stand your ground",
+    "meanings": [
+      {
+        "defination": "Giữ vững lập trường, không lùi bước.",
+        "example": [
+          "Even if they disagree, stand your ground if you believe in your idea."
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Steal someone's thunder",
+    "meanings": [
+      {
+        "defination": "Lấy mất sự chú ý hay công lao của người khác.",
+        "example": [
+          "They announced their wedding at my party and stole my thunder."
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Stick to your guns",
+    "meanings": [
+      {
+        "defination": "Giữ vững quan điểm bất chấp phản đối.",
+        "example": [
+          "He stuck to his guns even though everyone else disagreed."
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Straight from the horse's mouth",
+    "meanings": [
+      {
+        "defination": "Thông tin trực tiếp từ nguồn tin cậy nhất.",
+        "example": [
+          "I heard it straight from the horse’s mouth that she’s moving to Italy."
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Take it with a grain of salt",
+    "meanings": [
+      {
+        "defination": "Đừng quá tin hoàn toàn, hãy nghi ngờ.",
+        "example": [
+          "He exaggerates, so take his stories with a grain of salt."
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Take the bull by the horns",
+    "meanings": [
+      {
+        "defination": "Dám đương đầu trực tiếp với vấn đề.",
+        "example": [
+          "She decided to take the bull by the horns and address the issue."
+        ]
+      }
+    ]
+  },
+  {
+    "name": "The best of both worlds",
+    "meanings": [
+      {
+        "defination": "Hoàn cảnh kết hợp hai điều kiện tốt nhất.",
+        "example": [
+          "Living near the city but in a quiet area gives us the best of both worlds."
+        ]
+      }
+    ]
+  },
+  {
+    "name": "The early bird catches the worm",
+    "meanings": [
+      {
+        "defination": "Ai đến sớm (hoặc chủ động) sẽ được lợi.",
+        "example": [
+          "We need to get to the store early. The early bird catches the worm."
+        ]
+      }
+    ]
+  },
+  {
+    "name": "The last straw",
+    "meanings": [
+      {
+        "defination": "Giọt nước tràn ly, điều cuối cùng vượt sức chịu đựng.",
+        "example": [
+          "Losing his job was the last straw; he decided to move away."
+        ]
+      }
+    ]
+  },
+  {
+    "name": "The tip of the iceberg",
+    "meanings": [
+      {
+        "defination": "Chỉ là phần nổi của vấn đề, còn nhiều thứ ẩn sâu.",
+        "example": [
+          "The reported crimes are just the tip of the iceberg."
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Throw in the towel",
+    "meanings": [
+      {
+        "defination": "Bỏ cuộc, chấp nhận thất bại.",
+        "example": [
+          "After months of struggling, he decided to throw in the towel."
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Tie the knot",
+    "meanings": [
+      {
+        "defination": "Kết hôn.",
+        "example": [
+          "They decided to tie the knot in a small ceremony."
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Time flies",
+    "meanings": [
+      {
+        "defination": "Thời gian trôi nhanh.",
+        "example": [
+          "Time flies when you’re having fun."
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Too good to be true",
+    "meanings": [
+      {
+        "defination": "Quá tốt nên khó mà tin được.",
+        "example": [
+          "The offer seemed too good to be true, so I was cautious."
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Under the weather",
+    "meanings": [
+      {
+        "defination": "Cảm thấy ốm hoặc không khỏe.",
+        "example": [
+          "I’ve been feeling under the weather all day."
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Up in the air",
+    "meanings": [
+      {
+        "defination": "Chưa chắc chắn, chưa được quyết định.",
+        "example": [
+          "Our vacation plans are still up in the air."
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Variety is the spice of life",
+    "meanings": [
+      {
+        "defination": "Sự đa dạng làm cuộc sống thêm thú vị.",
+        "example": [
+          "She tries different cuisines because variety is the spice of life."
+        ]
+      }
+    ]
+  },
+  {
+    "name": "We'll cross that bridge when we come to it",
+    "meanings": [
+      {
+        "defination": "Đến đâu hay đến đó, gặp vấn đề mới tính.",
+        "example": [
+          "I’m not worried about the rent increase yet; we’ll cross that bridge when we come to it."
+        ]
+      }
+    ]
+  },
+  {
+    "name": "When pigs fly",
+    "meanings": [
+      {
+        "defination": "Điều không thể xảy ra.",
+        "example": [
+          "He’ll clean his room when pigs fly."
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Wrap your head around something",
+    "meanings": [
+      {
+        "defination": "Hiểu được điều gì phức tạp.",
+        "example": [
+          "I’m still trying to wrap my head around this new concept."
+        ]
+      }
+    ]
+  },
+  {
+    "name": "You can't have your cake and eat it too",
+    "meanings": [
+      {
+        "defination": "Không thể vừa được cái này vừa được cái kia (mâu thuẫn).",
+        "example": [
+          "He wants more free time but also wants a higher salary; you can’t have your cake and eat it too."
+        ]
+      }
+    ]
+  },
+  {
+    "name": "You can lead a horse to water, but you can't make him drink",
+    "meanings": [
+      {
+        "defination": "Bạn có thể cho ai đó cơ hội nhưng không thể buộc họ nắm lấy.",
+        "example": [
+          "I gave her the information, but she won’t act on it. You can lead a horse to water, but you can’t make him drink."
+        ]
+      }
+    ]
+  },
+  {
+    "name": "A penny for your thoughts",
+    "meanings": [
+      {
+        "defination": "Dùng để hỏi ai đó đang suy nghĩ gì.",
+        "example": [
+          "You’ve been quiet today – a penny for your thoughts?"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Add insult to injury",
+    "meanings": [
+      {
+        "defination": "Xát muối vào vết thương, làm tình hình tệ hơn.",
+        "example": [
+          "He arrived late and then, to add insult to injury, he forgot the tickets."
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Back to square one",
+    "meanings": [
+      {
+        "defination": "Quay về điểm xuất phát.",
+        "example": [
+          "We lost the data and now we’re back to square one."
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Burn bridges",
+    "meanings": [
+      {
+        "defination": "Phá hủy mối quan hệ, không thể quay lại.",
+        "example": [
+          "Don’t burn bridges with your former employer."
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Burn one's fingers",
+    "meanings": [
+      {
+        "defination": "Gặp rắc rối, chịu hậu quả vì hành động của mình.",
+        "example": [
+          "He burned his fingers in that risky investment."
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Caught red-handed",
+    "meanings": [
+      {
+        "defination": "Bị bắt quả tang đang làm gì xấu.",
+        "example": [
+          "He was caught red-handed stealing money from the till."
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Close but no cigar",
+    "meanings": [
+      {
+        "defination": "Gần đạt được mục tiêu nhưng vẫn thất bại.",
+        "example": [
+          "Her score was close but no cigar to win the contest."
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Cut to the chase",
+    "meanings": [
+      {
+        "defination": "Đi thẳng vào vấn đề chính, không vòng vo.",
+        "example": [
+          "Let’s cut to the chase: do you want this job or not?"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Don't beat a dead horse",
+    "meanings": [
+      {
+        "defination": "Đừng lãng phí thời gian vào việc vô ích, đã kết thúc.",
+        "example": [
+          "Stop talking about it; you’re just beating a dead horse."
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Eat your words",
+    "meanings": [
+      {
+        "defination": "Thừa nhận mình sai và rút lại lời nói.",
+        "example": [
+          "He had to eat his words after the product became a success."
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Every dog has its day",
+    "meanings": [
+      {
+        "defination": "Ai rồi cũng có lúc thành công hoặc cơ hội.",
+        "example": [
+          "Don’t give up – every dog has its day."
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Give it a shot",
+    "meanings": [
+      {
+        "defination": "Thử làm việc gì.",
+        "example": [
+          "I’ve never tried dancing before, but I’ll give it a shot."
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Go back to the drawing board",
+    "meanings": [
+      {
+        "defination": "Quay lại từ đầu để làm lại kế hoạch.",
+        "example": [
+          "The design didn’t work, so we went back to the drawing board."
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Go down the drain",
+    "meanings": [
+      {
+        "defination": "Đổ sông đổ biển, lãng phí hoàn toàn.",
+        "example": [
+          "All our efforts went down the drain when the deal was canceled."
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Go up in smoke",
+    "meanings": [
+      {
+        "defination": "Tan thành mây khói, không thành công.",
+        "example": [
+          "His dream of becoming a singer went up in smoke after the accident."
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Have a sweet tooth",
+    "meanings": [
+      {
+        "defination": "Thích ăn đồ ngọt.",
+        "example": [
+          "I have a sweet tooth, so I love desserts."
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Have butterflies in your stomach",
+    "meanings": [
+      {
+        "defination": "Lo lắng, bồn chồn (thường trước sự kiện quan trọng).",
+        "example": [
+          "She had butterflies in her stomach before her performance."
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Head over heels",
+    "meanings": [
+      {
+        "defination": "Yêu say đắm, hoàn toàn bị cuốn hút.",
+        "example": [
+          "He’s head over heels in love with his new girlfriend."
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Heart in your mouth",
+    "meanings": [
+      {
+        "defination": "Cực kỳ lo lắng, sợ hãi.",
+        "example": [
+          "My heart was in my mouth when I heard the loud bang."
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Hit the ground running",
+    "meanings": [
+      {
+        "defination": "Bắt đầu việc gì với tinh thần sẵn sàng và nhiệt huyết.",
+        "example": [
+          "He hit the ground running on his first day at the new job."
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Hit the jackpot",
+    "meanings": [
+      {
+        "defination": "Trúng lớn, thành công bất ngờ.",
+        "example": [
+          "She hit the jackpot with her new online business."
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Hold your tongue",
+    "meanings": [
+      {
+        "defination": "Giữ im lặng, không nói ra điều có thể gây rắc rối.",
+        "example": [
+          "You’d better hold your tongue rather than start an argument."
+        ]
+      }
+    ]
+  },
+  {
+    "name": "It takes two to tango",
+    "meanings": [
+      {
+        "defination": "Chuyện gì cũng cần hai phía chịu trách nhiệm.",
+        "example": [
+          "We can’t blame just one side; it takes two to tango."
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Jump to conclusions",
+    "meanings": [
+      {
+        "defination": "Vội vàng kết luận mà chưa có đủ thông tin.",
+        "example": [
+          "Don’t jump to conclusions without hearing both sides."
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Keep something at bay",
+    "meanings": [
+      {
+        "defination": "Giữ cho điều gì không xảy ra hoặc không đến gần.",
+        "example": [
+          "We need strong measures to keep the disease at bay."
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Kick the bucket",
+    "meanings": [
+      {
+        "defination": "Chết (tiếng lóng).",
+        "example": [
+          "The old man finally kicked the bucket at age 95."
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Lay down the law",
+    "meanings": [
+      {
+        "defination": "Đề ra quy định nghiêm khắc, yêu cầu tuân thủ.",
+        "example": [
+          "He laid down the law: no phones at the dinner table."
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Let sleeping dogs lie",
+    "meanings": [
+      {
+        "defination": "Đừng khơi lại chuyện cũ gây rắc rối.",
+        "example": [
+          "I decided not to mention the argument and let sleeping dogs lie."
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Make ends meet",
+    "meanings": [
+      {
+        "defination": "Kiếm đủ tiền để trang trải cuộc sống.",
+        "example": [
+          "They struggle to make ends meet on a single income."
+        ]
+      }
+    ]
+  },
+  {
+    "name": "On cloud nine",
+    "meanings": [
+      {
+        "defination": "Vô cùng hạnh phúc.",
+        "example": [
+          "He’s been on cloud nine since he got the promotion."
+        ]
+      }
+    ]
+  },
+  {
+    "name": "On thin ice",
+    "meanings": [
+      {
+        "defination": "Đang trong tình huống mạo hiểm hoặc nguy hiểm.",
+        "example": [
+          "You’re on thin ice if you keep coming to work late."
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Once bitten, twice shy",
+    "meanings": [
+      {
+        "defination": "Sợ mắc sai lầm vì đã trải qua trước đó.",
+        "example": [
+          "She won’t invest in stocks again. Once bitten, twice shy."
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Play devil's advocate",
+    "meanings": [
+      {
+        "defination": "Cố ý tranh luận ngược lại để kiểm chứng ý kiến.",
+        "example": [
+          "I’ll play devil’s advocate so we can cover all angles."
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Practice makes perfect",
+    "meanings": [
+      {
+        "defination": "Càng luyện tập càng thành thạo.",
+        "example": [
+          "Keep practicing; practice makes perfect."
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Pull out all the stops",
+    "meanings": [
+      {
+        "defination": "Dồn hết sức lực, không tiếc công sức.",
+        "example": [
+          "They pulled out all the stops for their daughter’s wedding."
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Put your money where your mouth is",
+    "meanings": [
+      {
+        "defination": "Hành động thay vì chỉ nói suông.",
+        "example": [
+          "If you think it’ll work, then invest. Put your money where your mouth is."
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Rack your brain",
+    "meanings": [
+      {
+        "defination": "Vắt óc suy nghĩ.",
+        "example": [
+          "I’ve been racking my brain all day trying to remember her name."
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Save for a rainy day",
+    "meanings": [
+      {
+        "defination": "Tiết kiệm cho lúc khó khăn.",
+        "example": [
+          "You should save for a rainy day in case you lose your job."
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Scratch someone's back",
+    "meanings": [
+      {
+        "defination": "Giúp ai với mong muốn họ giúp lại mình.",
+        "example": [
+          "I’ll scratch your back if you scratch mine."
+        ]
+      }
+    ]
+  },
+  {
+    "name": "See the big picture",
+    "meanings": [
+      {
+        "defination": "Nhìn toàn cảnh, hiểu hết mọi khía cạnh.",
+        "example": [
+          "Try to see the big picture instead of focusing on minor details."
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Show your true colors",
+    "meanings": [
+      {
+        "defination": "Bộc lộ bản chất thật.",
+        "example": [
+          "He finally showed his true colors when he started yelling at everyone."
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Sleep on it",
+    "meanings": [
+      {
+        "defination": "Nghĩ thêm (thường qua đêm) trước khi quyết định.",
+        "example": [
+          "Don’t rush; sleep on it and tell me tomorrow."
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Smell a rat",
+    "meanings": [
+      {
+        "defination": "Nghi ngờ có gì đó bất chính.",
+        "example": [
+          "I smell a rat in this deal; it’s too good to be true."
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Snowed under",
+    "meanings": [
+      {
+        "defination": "Bận ngập đầu.",
+        "example": [
+          "I can’t go out this weekend; I’m snowed under with work."
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Speak your mind",
+    "meanings": [
+      {
+        "defination": "Nói thẳng suy nghĩ, quan điểm.",
+        "example": [
+          "Don’t be afraid to speak your mind at the meeting."
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Stick your neck out",
+    "meanings": [
+      {
+        "defination": "Liều mình, chấp nhận rủi ro để giúp ai hoặc nêu ý kiến.",
+        "example": [
+          "He stuck his neck out to defend his friend at work."
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Stop beating around the bush",
+    "meanings": [
+      {
+        "defination": "Đừng vòng vo nữa, hãy nói thẳng.",
+        "example": [
+          "Stop beating around the bush and say what you want."
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Strike while the iron is hot",
+    "meanings": [
+      {
+        "defination": "Nắm lấy cơ hội ngay khi còn nóng, còn thuận lợi.",
+        "example": [
+          "He decided to strike while the iron is hot and propose the plan now."
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Take a rain check",
+    "meanings": [
+      {
+        "defination": "Hẹn lần sau (từ chối khéo nhưng còn ý muốn gặp lại).",
+        "example": [
+          "I’m busy tonight, can I take a rain check on that dinner?"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Take it easy",
+    "meanings": [
+      {
+        "defination": "Bình tĩnh, thư giãn, không căng thẳng.",
+        "example": [
+          "You’ve been working too hard. Take it easy this weekend."
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Take the cake",
+    "meanings": [
+      {
+        "defination": "Nói về điều tệ nhất hoặc ấn tượng nhất (mỉa mai).",
+        "example": [
+          "I’ve seen bad presentations, but that one really takes the cake."
+        ]
+      }
+    ]
+  },
+  {
+    "name": "That rings a bell",
+    "meanings": [
+      {
+        "defination": "Nghe quen thuộc, gợi nhớ.",
+        "example": [
+          "Her name rings a bell, but I can’t remember where we met."
+        ]
+      }
+    ]
+  },
+  {
+    "name": "The best thing since sliced bread",
+    "meanings": [
+      {
+        "defination": "Ý tưởng hoặc phát minh tuyệt vời nhất.",
+        "example": [
+          "Online shopping is the best thing since sliced bread!"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Through thick and thin",
+    "meanings": [
+      {
+        "defination": "Cùng nhau vượt mọi gian nan, khó khăn.",
+        "example": [
+          "They stayed friends through thick and thin."
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Turn over a new leaf",
+    "meanings": [
+      {
+        "defination": "Bắt đầu thay đổi cách sống hoặc làm việc tốt hơn.",
+        "example": [
+          "He promised to turn over a new leaf and quit smoking."
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Under one's thumb",
+    "meanings": [
+      {
+        "defination": "Bị kiểm soát hoặc ảnh hưởng bởi ai đó.",
+        "example": [
+          "He has her under his thumb because he pays her bills."
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Under the table",
+    "meanings": [
+      {
+        "defination": "Làm điều gì bí mật, thường là bất hợp pháp.",
+        "example": [
+          "They paid him under the table to avoid taxes."
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Walk a mile in someone's shoes",
+    "meanings": [
+      {
+        "defination": "Đặt mình vào hoàn cảnh của người khác để thấu hiểu.",
+        "example": [
+          "Try to walk a mile in his shoes before judging his actions."
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Wash your hands of something",
+    "meanings": [
+      {
+        "defination": "Phủi bỏ trách nhiệm, không liên quan.",
+        "example": [
+          "He washed his hands of the project after the conflict started."
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Water under the bridge",
+    "meanings": [
+      {
+        "defination": "Chuyện đã qua, không nên nhắc lại.",
+        "example": [
+          "We had our disagreements, but that’s water under the bridge now."
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Wild goose chase",
+    "meanings": [
+      {
+        "defination": "Theo đuổi điều vô ích, không có kết quả.",
+        "example": [
+          "Searching for the old document was a wild goose chase."
+        ]
+      }
+    ]
+  },
+  {
+    "name": "You are what you eat",
+    "meanings": [
+      {
+        "defination": "Ăn gì sẽ ảnh hưởng đến sức khỏe, phản ánh con người bạn.",
+        "example": [
+          "Try to eat healthy; you are what you eat."
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Zip your lip",
+    "meanings": [
+      {
+        "defination": "Giữ im lặng, đừng nói ra.",
+        "example": [
+          "Zip your lip about the surprise gift."
+        ]
+      }
+    ]
+  },
+  {
+    "name": "A storm in a teacup",
+    "meanings": [
+      {
+        "defination": "Chuyện bé xé ra to.",
+        "example": [
+          "Don’t worry about their argument; it’s just a storm in a teacup."
+        ]
+      }
+    ]
+  },
+  {
+    "name": "All in the same boat",
+    "meanings": [
+      {
+        "defination": "Cùng chung hoàn cảnh.",
+        "example": [
+          "We’re all in the same boat with these budget cuts."
+        ]
+      }
+    ]
+  },
+  {
+    "name": "At the drop of a hat",
+    "meanings": [
+      {
+        "defination": "Ngay lập tức, không chần chừ.",
+        "example": [
+          "He’s ready to travel at the drop of a hat."
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Ballpark figure",
+    "meanings": [
+      {
+        "defination": "Con số ước chừng, không chính xác tuyệt đối.",
+        "example": [
+          "Can you give me a ballpark figure on the cost?"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Blue in the face",
+    "meanings": [
+      {
+        "defination": "Nói mãi nhưng chẳng thay đổi gì, vô ích.",
+        "example": [
+          "You can argue until you’re blue in the face, but he won’t listen."
+        ]
+      }
+    ]
+  },
+  {
+    "name": "By the skin of your teeth",
+    "meanings": [
+      {
+        "defination": "Suýt soát, vừa kịp.",
+        "example": [
+          "He passed the exam by the skin of his teeth."
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Clam up",
+    "meanings": [
+      {
+        "defination": "Từ chối nói hoặc đột ngột im lặng.",
+        "example": [
+          "He clammed up when the police started asking questions."
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Cross your fingers",
+    "meanings": [
+      {
+        "defination": "Cầu mong điều tốt đẹp sẽ xảy ra.",
+        "example": [
+          "I have a job interview today – cross your fingers for me."
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Cut the mustard",
+    "meanings": [
+      {
+        "defination": "Đáp ứng được tiêu chuẩn, kỳ vọng.",
+        "example": [
+          "We hired him, but he just couldn’t cut the mustard."
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Down in the dumps",
+    "meanings": [
+      {
+        "defination": "Buồn bã, chán nản.",
+        "example": [
+          "He’s been down in the dumps since he lost his job."
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Face the music",
+    "meanings": [
+      {
+        "defination": "Đối mặt với hậu quả của hành động.",
+        "example": [
+          "He broke the rules, so now he must face the music."
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Feel under the weather",
+    "meanings": [
+      {
+        "defination": "Cảm thấy không khỏe.",
+        "example": [
+          "I’m feeling under the weather, so I’ll stay home today."
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Fork out",
+    "meanings": [
+      {
+        "defination": "Chi tiền (thường miễn cưỡng).",
+        "example": [
+          "We had to fork out a lot of money for car repairs."
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Get cold feet",
+    "meanings": [
+      {
+        "defination": "Lo lắng, sợ hãi trước một sự kiện quan trọng.",
+        "example": [
+          "He got cold feet before the wedding."
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Go bananas",
+    "meanings": [
+      {
+        "defination": "Trở nên phấn khích hoặc giận dữ tột độ.",
+        "example": [
+          "The crowd went bananas when the band came on stage."
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Hit the roof",
+    "meanings": [
+      {
+        "defination": "Rất tức giận, nổi giận đùng đùng.",
+        "example": [
+          "My dad hit the roof when I crashed his car."
+        ]
+      }
+    ]
+  },
+  {
+    "name": "In a pickle",
+    "meanings": [
+      {
+        "defination": "Gặp rắc rối, hoàn cảnh khó khăn.",
+        "example": [
+          "We’re in a pickle with these overdue bills."
+        ]
+      }
+    ]
+  },
+  {
+    "name": "In the blink of an eye",
+    "meanings": [
+      {
+        "defination": "Xảy ra rất nhanh, chớp mắt.",
+        "example": [
+          "The car disappeared in the blink of an eye."
+        ]
+      }
+    ]
+  },
+  {
+    "name": "In the long run",
+    "meanings": [
+      {
+        "defination": "Về lâu dài, xét về tương lai xa.",
+        "example": [
+          "It might be expensive now, but it’ll pay off in the long run."
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Keep your eyes peeled",
+    "meanings": [
+      {
+        "defination": "Chú ý quan sát cẩn thận.",
+        "example": [
+          "Keep your eyes peeled for any suspicious activity."
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Knock on wood",
+    "meanings": [
+      {
+        "defination": "Nói để tránh xui xẻo sau khi đề cập đến điều tốt.",
+        "example": [
+          "I’ve never broken a bone, knock on wood."
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Lose your marbles",
+    "meanings": [
+      {
+        "defination": "Mất tỉnh táo hoặc hành xử điên rồ.",
+        "example": [
+          "She started yelling at everyone; I think she’s losing her marbles."
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Make waves",
+    "meanings": [
+      {
+        "defination": "Gây chú ý, tạo xáo trộn hoặc tranh cãi.",
+        "example": [
+          "He made waves with his controversial opinion in the meeting."
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Mumbo jumbo",
+    "meanings": [
+      {
+        "defination": "Chuyện rối rắm, khó hiểu hoặc vô nghĩa.",
+        "example": [
+          "That explanation was just mumbo jumbo to me."
+        ]
+      }
+    ]
+  },
+  {
+    "name": "No-brainer",
+    "meanings": [
+      {
+        "defination": "Quyết định dễ dàng, không cần suy nghĩ nhiều.",
+        "example": [
+          "Accepting that job offer was a no-brainer."
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Play it by ear",
+    "meanings": [
+      {
+        "defination": "Tùy cơ ứng biến, không có kế hoạch cố định.",
+        "example": [
+          "I’m not sure what time we’ll leave; let’s just play it by ear."
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Ring a bell",
+    "meanings": [
+      {
+        "defination": "Nghe quen quen, gợi nhớ điều gì.",
+        "example": [
+          "Does the name Alex ring a bell?"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Run out of steam",
+    "meanings": [
+      {
+        "defination": "Mất hứng, hết năng lượng hoặc động lực.",
+        "example": [
+          "He worked so hard that he ran out of steam by the afternoon."
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Storm out",
+    "meanings": [
+      {
+        "defination": "Rời đi một cách giận dữ, ầm ầm.",
+        "example": [
+          "She stormed out of the room after the argument."
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Take the plunge",
+    "meanings": [
+      {
+        "defination": "Quyết định làm điều mạo hiểm hoặc quan trọng sau khi suy nghĩ.",
+        "example": [
+          "They took the plunge and got married after dating for a month."
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Taste of your own medicine",
+    "meanings": [
+      {
+        "defination": "Đối xử với ai đó theo cách họ đối xử với người khác (thường là tệ).",
+        "example": [
+          "He’s always criticizing others, so when he got scolded, it was a taste of his own medicine."
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Under your nose",
+    "meanings": [
+      {
+        "defination": "Ngay trước mắt mà không nhận ra.",
+        "example": [
+          "I searched everywhere for my keys, and they were right under my nose the whole time."
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Throw caution to the wind",
+    "meanings": [
+      {
+        "defination": "Bất chấp rủi ro, liều lĩnh.",
+        "example": [
+          "She threw caution to the wind and quit her job to travel."
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Tighten your belt",
+    "meanings": [
+      {
+        "defination": "Tiết kiệm, chi tiêu chặt chẽ hơn.",
+        "example": [
+          "We need to tighten our belt until the next paycheck."
+        ]
+      }
+    ]
+  }
 ]

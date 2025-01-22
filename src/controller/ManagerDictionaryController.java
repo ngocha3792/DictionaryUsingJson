@@ -31,13 +31,13 @@ public class ManagerDictionaryController {
     private DictionaryApp dictionaryApp;
 
     public ManagerDictionaryController() {
-        // Constructor trống để controller được khởi tạo tự động bởi JavaFX
+        
     }
 
-    // Hàm setDictionaryApp để truyền đối tượng DictionaryApp từ bên ngoài
+    
     public void setDictionaryApp(DictionaryApp dictionaryApp) {
         this.dictionaryApp = dictionaryApp;
-        loadWords(); // Cập nhật danh sách từ khi đối tượng DictionaryApp được thiết lập
+        loadWords(); 
     }
 
     @FXML

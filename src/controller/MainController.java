@@ -43,9 +43,9 @@ public class MainController {
 
     @FXML
     public void initialize() {
-        // Xử lý sự kiện tìm kiếm
+     
         searchField.textProperty().addListener((observable, oldValue, newValue) -> handleSearch());
-        suggestionsContainer.toFront(); // Đảm bảo khu vực gợi ý luôn ở trên
+        suggestionsContainer.toFront();
     }
 
     @FXML
