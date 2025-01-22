@@ -5,6 +5,7 @@
  * 
  */
 module DictionaryUsingJson {
+	opens controller to javafx.fxml;
 	exports controller;
 	exports view;
 

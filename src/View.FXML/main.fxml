@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="390.0" prefWidth="600.0" style="-fx-background-color: linear-gradient(to bottom, #ffffff, #e0e0e0);" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.MainController">
+   <children>
+      <!-- Tiêu đề -->
+      <VBox alignment="CENTER" prefHeight="100.0" prefWidth="600.0" spacing="10.0" style="-fx-padding: 20;">
+         <children>
+            <Label style="-fx-font-weight: bold;" text="Từ điển Hoàng" textFill="#0033cc">
+               <font>
+                  <Font name="Arial" size="28.0" />
+               </font>
+            </Label>
+         </children>
+      </VBox>
+
+      <!-- Thanh tìm kiếm -->
+      <HBox alignment="CENTER" layoutX="82.0" layoutY="100.0" spacing="5.0" style="-fx-padding: 10;">
+         <children>
+            <TextField fx:id="searchField" onKeyReleased="#handleSearch" prefHeight="30.0" prefWidth="400.0" promptText="Nhập từ cần tra cứu..." style="-fx-background-radius: 15; -fx-border-radius: 15; -fx-border-color: #b0b0b0;" />
+            <Button fx:id="searchButton" mnemonicParsing="false" onAction="#handleSearch" style="-fx-background-radius: 15; -fx-background-color: #007bff; -fx-text-fill: white;" text="🔍" />
+         </children>
+      </HBox>
+
+      <!-- Khu vực hiển thị gợi ý -->
+      <VBox fx:id="suggestionsContainer" layoutX="50.0" layoutY="150.0" prefWidth="500.0" spacing="10.0" style="-fx-background-color: #ffffff; -fx-border-color: #cccccc; -fx-border-radius: 5; -fx-background-radius: 5; -fx-padding: 0;" />
+
+      <!-- Các nút chức năng -->
+      <VBox alignment="CENTER" layoutY="300.0" prefHeight="120.0" prefWidth="600.0" spacing="15.0" style="-fx-padding: 10;">
+         <children>
+            <Button fx:id="manageDictionaryButton" mnemonicParsing="false" onAction="#handleManageDictionary" prefHeight="40.0" prefWidth="400.0" style="-fx-background-color: #007bff; -fx-text-fill: white; -fx-background-radius: 15;" text="Quản lý từ điển" />
+            <Button fx:id="idiomListButton" mnemonicParsing="false" onAction="#handleIdiomList" prefHeight="40.0" prefWidth="400.0" style="-fx-background-color: #007bff; -fx-text-fill: white; -fx-background-radius: 15;" text="Danh sách thành ngữ" />
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>
